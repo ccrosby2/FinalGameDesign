@@ -1,5 +1,5 @@
 from Gvars import *
-import chapter1m8
+import FinalGameDesignchapter1m8
 from Gvars import inventory
 chapter1m8.pick_name()
 
