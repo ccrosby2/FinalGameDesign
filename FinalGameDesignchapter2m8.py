@@ -1,6 +1,6 @@
 from Gvars import *
 import FinalGameDesignchapter1m8
-from Gvars import inventory
+from inventory import inventory
 chapter1m8.pick_name()
 
 from Gvars import name
