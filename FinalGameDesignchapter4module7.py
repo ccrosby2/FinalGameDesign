@@ -12,9 +12,20 @@ crab = "crab"
 spaghetti = "spaghetti"
 soup_chicken = "soupw/chicken"
 small_drink = "small drink"
-Luguine="luguine pasta desert" 
+Luguine="luguine with pasta and desert" 
 hungry = ("burger")or("hotdog")or("crab")or("spaghetti")or("soup_chicken")
 option= input("Choose dinner:")
+print("burger")
+print("fries")
+print("drink")
+print("hotdog")
+print("salad")
+print("Large drink")
+print("crab")
+print("spaghetti")
+print("soup with chicken")
+print("Small drink")
+print("Luguine with pasta and desert")
 print(input)
 
 num_attempts = 9
