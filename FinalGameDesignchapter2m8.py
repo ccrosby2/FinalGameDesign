@@ -6,9 +6,8 @@ FinalGameDesignchapter1m8.pick_name()
 from Gvars import name
 print (name)
 
-#from Gvars import inventory
 
-#arrested_heisters.append(name)
+
 print("This is Chapter Two")
 print("Pick a character to see the arragements of the next heist")
 option = ("Choose a person")
@@ -16,43 +15,53 @@ args = "inventory", "jumpsuit", "masks", "outfits", "agency", "mall"
 num = "Cleo", "Stoney", "TT", "Frankie"
 
 outfit = input("Which item are you about to pick : 1. jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory")
-#jumpsuits= "0"
-#masks = "1"
-#outfits = "2"
-#agency= "3"
-#mall = "4"
-#inventory="5"
+jumpsuits= "Stoney,TT,and Frankie are ok with Cleo getting this item"
+masks = "1"
+outfits = "2"
+agency= "3"
+mall == "4" and mall == "0"
+inventory =="Stoney, TT, and Frankie stares at Cleo" and inventory == "5"
 
-if outfit not in ["1","3","4","0","5"]:
+while outfit not in ["1","3","4","0","5"]:
     print("This is not a option. Game Over")
-else:
-    if option == "0":
-        print ("Cleo says" ,"I want to get some jumpsuits, mask, and guns to rob the bank downtown")
-    elif option== "1":
+if outfit not in names:
+    print()
+elif outfit not in ["1","3","4","0","5"]:
+    print ("Cleo says" ,"I want to get some jumpsuits, mask, and guns to rob the bank downtown")
+    print(inventory)
+    print(jumpsuits)
+    print("5")
+elif option== "1":
         print ("Stoney says","I want to get the outfits")
-    elif option == "3":
-        print("TT says","I want to get my son from the agency before we leave.")
-    elif option =="5":
-        if name == "Cleo":
-            print (" Cleo also says: Stoney,TT,and Frankie can get us a new ride")
-        else:
-            print("You have made the wrong choice.")
-
-    for num in names:
+elif option == "3":
+    print("TT says","I want to get my son from the agency before we leave.")
+elif option =="5":
+    print (" Cleo also says: Stoney,TT,and Frankie can get us a new ride")
+elif option == "jumpsuits" and option == "5":
+    print("You have made the wrong choice.")
+for num in names:
         print (num)
+        print("This is the plan for the next heist")
 
-    option_inventory = -1
-    while option_inventory not in [0, 1,2,3,4]:
-        option_inventory=int(input("What option you want to take: Cleo = 0, Stoney = 1,Frankie = 2, TT = 3, mall = 4"))
+option_inventory = -1
+while option_inventory not in [0, 1,2,3,4,]:
+    while mall_inventory not in [Stoney,Cleo,Frankie,TT,DCFS]:
+        option_inventory=int(input("What option you want to take: Cleo = 0, Stoney = 1,Frankie = 2, TT = 3, mall = 4, mall_inventory = Stoney,jumpsuits_inventory = Cleo,masks_inventory = Frankie, outfits_inventory = TT, agency_inventory= DCFS"))
         if option_inventory < 0 or option_inventory > 4:
+            print()
+        else:
             print("This is not a option. Try again")
     Cleo = "0",
     Stoney = "1",
     Frankie = "2",
     TT = "3",
-    mall = "Stoney"
-
-
+    mall = "4"
+    inventory="5"
+    mall_inventory = "Stoney"
+    jumpsuits_inventory= "Cleo"
+    masks_inventory = "Frankie"
+    outfits_inventory = "TT"
+    agency_inventory= "DCFS"
 
 
 
@@ -67,6 +76,8 @@ else:
 
     elif option_inventory == "3":
         print("I want to get my son from the agency before we leave.")
+    else:
+        print()
     class person:
         def __init__ (self, inventory,jumpsuit, outfits, masks, agency,mall):
             self.inventory = inventory
