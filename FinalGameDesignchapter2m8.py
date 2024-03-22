@@ -9,7 +9,8 @@ print (name)
 #from Gvars import inventory
 
 #arrested_heisters.append(name)
-
+print("This is Chapter Two")
+print("Pick a character to see the arragements of the next heist")
 option = ("Choose a person")
 args = "inventory", "jumpsuit", "masks", "outfits", "agency", "mall"
 num = "Cleo", "Stoney", "TT", "Frankie"
@@ -33,7 +34,7 @@ else:
         print("TT says","I want to get my son from the agency before we leave.")
     elif option =="5":
         if name == "Cleo":
-            print ("Stoney,TT,and Frankie can get us a new ride")
+            print (" Cleo also says: Stoney,TT,and Frankie can get us a new ride")
         else:
             print("You have made the wrong choice.")
 
