@@ -1,6 +1,9 @@
 #from Gvars import*
 import turtle
 
+print("This is Chapter 5")
+print("This is the last chapter before you win the game.")
+print ("Help make a decision on the consequences the four females have after putting their life in danger from robbing a bank")
 names=["TT", "Cleo","Stoney","Frankie"]
 name = input("Choose who you want. Cleo, Stoney, TT, Frankie")
 
