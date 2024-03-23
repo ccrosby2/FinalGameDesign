@@ -1,5 +1,8 @@
 import random
 
+print("This is Chapter 4")
+print("Stoney and a bank manager is eating at one of Stoney's black owned favorite places to eat.")
+print("Help Stoney pick the perfect meal for the banker and Stoney to eat")
 option = (1,12)
 int = random.randrange(1,12)
 burger="burger"
