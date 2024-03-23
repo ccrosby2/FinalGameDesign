@@ -1,5 +1,6 @@
 import random
-
+print("This is Chapter 3")
+print("This is a crime investigation to see who should be the person to ask about the muder of Luther")
 option = (1,5)
 user = random.randrange(1,5)
 Cleopatria_Lenchrich = "0"
