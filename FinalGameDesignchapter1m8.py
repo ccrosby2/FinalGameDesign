@@ -3,7 +3,8 @@ def pick_name():
     import random
     name = input("Choose who you want. 1. Cleo, 2. TT, 3. Stoney, 4. Frankie")
 
-
+print("This is Chapter one")
+print("The next heist will help make us alot of money.")
     while name not in ["1","2","3","4"]:
         print("This is not a option. Game Over")
         name = input("Choose who you want. 1. Cleo, 2. TT, 3. Stoney, 4. Frankie")
